@@ -1951,9 +1951,8 @@ pre code {
     border: 0;
   }
 
-  h1,
-  .h1 {
-    font-size: 4.5rem;
+  .smallHide {
+    display: none
   }
 }
 
@@ -4784,6 +4783,7 @@ input[type=button].btn-block {
 
 .navbar-dark .navbar-brand {
   color: #fff;
+  width: 100%;
 }
 
 .navbar-dark .navbar-brand:hover,
@@ -10830,6 +10830,10 @@ p.lead {
   font-weight: 400;
 }
 
+.aboutMe {
+  color: #343a40;
+}
+
 .subheading {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
@@ -10911,7 +10915,8 @@ p.lead {
 }
 
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  color: #bd5d38;
+  background-color: #fff;
 }
 
 .dev-icons {
