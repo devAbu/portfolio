@@ -10924,7 +10924,6 @@ p.lead {
 }
 
 section.resume-section {
-  display: flex;
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -10950,4 +10949,13 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.brojevi { 
+  width: 1000px;
+  position: relative;
+}
+
+.viewMore{
+  float: right;
 }
