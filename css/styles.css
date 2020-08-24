@@ -10959,3 +10959,30 @@ section.resume-section .resume-section-content {
 .viewMore{
   float: right;
 }
+
+#btt {
+  min-width: 100%;
+  background-image: linear-gradient(180deg, #f4b93d, #f4b93d);
+}
+
+#corona{
+  min-width: 100%;
+
+  background-image: linear-gradient(180deg, #005ba9, #005ba9);
+}
+
+#shoeshion{
+background-color: #4a4a4a;
+min-width: 100%;
+
+}
+
+#aloeVera{
+  min-width: 100%;
+
+background-image: linear-gradient(180deg, #009ee2, #009ee2);
+}
+
+.mainDiv{
+  min-width: calc(100vw - 35rem);
+}
