@@ -4491,6 +4491,26 @@ input[type=button].btn-block {
     padding-right: 0;
     padding-left: 0;
   }
+
+  img {
+    width: 330px;
+  }
+
+  #phoneImg {
+    width: 250px
+  }
+
+  .brojevi {
+    width: 100% !important;
+  }
+
+  .viewMore {
+    float: none !important;
+  }
+}
+
+section p {
+  color: white
 }
 
 @media (min-width: 576px) {
@@ -10951,13 +10971,14 @@ section.resume-section .resume-section-content {
   }
 }
 
-.brojevi { 
+.brojevi {
   width: 1000px;
   position: relative;
 }
 
-.viewMore{
+.viewMore {
   float: right;
+  color: white !important
 }
 
 #btt {
@@ -10965,24 +10986,24 @@ section.resume-section .resume-section-content {
   background-image: linear-gradient(180deg, #f4b93d, #f4b93d);
 }
 
-#corona{
+#corona {
   min-width: 100%;
 
   background-image: linear-gradient(180deg, #005ba9, #005ba9);
 }
 
-#shoeshion{
-background-color: #4a4a4a;
-min-width: 100%;
-
-}
-
-#aloeVera{
+#shoeshion {
+  background-color: #4a4a4a;
   min-width: 100%;
 
-background-image: linear-gradient(180deg, #009ee2, #009ee2);
 }
 
-.mainDiv{
+#aloeVera {
+  min-width: 100%;
+
+  background-image: linear-gradient(180deg, #009ee2, #009ee2);
+}
+
+.mainDiv {
   min-width: calc(100vw - 35rem);
 }
